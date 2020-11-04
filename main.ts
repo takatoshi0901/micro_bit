@@ -14,4 +14,5 @@ let Display = 0
 Display = 1
 basic.forever(function () {
     basic.showNumber(Display)
+    basic.showIcon(IconNames.SmallDiamond)
 })
