@@ -5,7 +5,7 @@ input.onGesture(Gesture.Shake, function () {
     Display = 1
 })
 input.onButtonPressed(Button.AB, function () {
-    Display = 1
+    Display = input.compassHeading()
 })
 input.onButtonPressed(Button.B, function () {
     Display = Display * 2
